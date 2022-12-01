@@ -1,0 +1,103 @@
+*{background: whitesmoke;}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+.logo{ text-align: center;
+    cursor:cell; }
+.item_Text1{
+        text-align: center;
+        font-size: 21px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+.shape-color {
+    background-position: center;
+    background-color: #eb3810; color: white;
+    padding: 10px 60px 10px 20px;border-radius: 30px;text-decoration: none;}
+    .a {       }
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-auto-rows: minmax(70px,auto);
+          grid-column-gap: 10px;
+          grid-row-gap: 10px;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+     .button{
+        display: grid;
+        grid-column: 3/5;
+        grid-template-rows: ;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 20px;   
+            border-radius: 10px 10px 10px 10px;
+            margin:10px 1px 10px 1px;
+            padding: 1px 1px 10px 1px;
+  
+        }
+           .item_Text2 {
+            display: grid;
+            grid-row: 9/10;
+            grid-column: 3/5;
+                text-align: center;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        }
+        .btn2{
+           background-color: #eb3810;
+           border-radius: 10px;
+        }
+        
+        .textimg {
+            display: grid;
+            grid-row: 4/5;
+            grid-column: 3/5;
+            grid-template-rows: 300px;
+            cursor:cell; 
+
+        background-image: url(assets/beiro.jpg);
+        padding-top: 60px;
+            font-size: 50px;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        
+        .left,
+        .right{
+            background-color: #eb3810;
+              display: inline-flex;
+              width: 15px;
+              height: 15px;
+              }
+        .left {
+            border-top: 1px solid white;
+            border-left: 1px solid white;
+            transform: rotate(-45deg);
+            position: relative;
+            right: 30%;
+        }
+        .right{
+            border-top: 1px solid white;
+            border-right: 1px solid white;
+            transform: rotate(45deg);
+            position: relative;
+            left: 30%;
+        }
+       
+       .button :hover{
+       font-size: 23px;
+         }
+                 
+              .item_Text2{
+                    display: grid;
+                    grid-row: 5/6;
+                    grid-column: 3/5;                   
+              }
+              .item_Text3{
+                display: grid;
+                grid-row: 6/7;
+                grid-column: 3/5;                   
+          }
+          .item_Text4{
+            display: grid;
+            grid-row: 7/8;
+            grid-column: 3/5;  
+            cursor: pointer;                 
+      }
+       

@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&display=swap');
+* {background:azure;}
+.Ref {
+    display: flex;
+    justify-content: space-evenly;}
+h1 {
+    color: black;
+    text-align: center; 
+    }
+.item{
+    padding: 10px;
+    border: 1px solid black;
+    font-size: 18px;
+    box-shadow: 0 8px 16px rgb(167, 207, 207);
+  
+}
+
+
+
+.container {
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: ;
+  grid-auto-rows: minmax(100px,auto);
+  justify-items: auto; 
+  align-items:auto;
+       
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    
+    }
+
+.item_1{
+  color: azure;
+  background-color: brown;
+  border-radius: 10px;
+   }
+   #brown {
+    background: brown;
+   }
+   
+.item_2{
+    display: grid;
+    grid-column: 1/4;
+    grid-template-rows: 300px;;
+        background-image: url(https://cdn.lifehacker.ru/wp-content/uploads/2022/06/MV5BMWFlOTk3MWYtOGIxOS00NTQ1LWFhODAtOWU5MDM3NzcwYTMwXkEyXkFqcGdeQXVyMjMzMDI4MjQ@._V1__1655962496-1280x640.jpg);
+        background-size:100%;
+        border-radius: 10px 10px 10px 10px;
+        margin:10px 10px 10px 10px;
+      cursor:cell;  
+}
+.item_3{
+    display: grid; 
+    grid-column: 4/7;
+        background-image: url(https://s3.wi-fi.ru/cp3o/NztknFUuHhS9A5AyavE7zmNY?response-content-type=image%2Fjpeg);
+        border-radius: 10px 10px 10px 10px;
+        margin:10px 10px 10px 10px;
+        background-size:100%;
+        background-position: 45% ;
+        cursor:cell; 
+}
+.item_4{
+    display:grid;
+    grid-row: 3/4;
+    grid-column: 1/3;
+    grid-template-rows: 300px;;
+    background-image: url(https://www.kinonews.ru/insimgs/shotimg/shotimg17987_4.jpg);
+    background-size: 100%;
+    border-radius: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px; 
+    background-position: 30% ;
+    cursor:cell; 
+}
+.item_5 {
+    display:grid;
+    grid-row: 3/4;
+    grid-column: 3/5;
+    background-image: url(https://flytothesky.ru/wp-content/uploads/2021/03/13-4.jpg);
+    border-radius: 10px 10px 10px 10px;
+    margin:10px 10px 10px 10px;
+    background-size: 100%;
+    cursor:cell; 
+
+}
+.item_2_1{
+    display: grid;
+    
+    grid-template-rows: 300px;;
+        background-image: url(https://b1.filmpro.ru/c/14820.jpg);
+        background-size:90%;
+        border-radius: 10px 10px 10px 10px;
+        margin:10px 10px 10px 10px;
+        background-position: 30% ;
+        cursor:cell;     
+}
+.item_2_2{
+    display: grid;
+    
+    grid-template-rows: 300px;;
+        background-image: url(https://www.kinonews.ru/insimgs/shotimg/shotimg17987_1.jpg);
+        background-size:100%;
+        border-radius: 10px 10px 10px 10px;
+        margin:10px 10px 10px 10px; 
+        cursor:cell;    
+}
+.item_2_3{
+    display: grid;
+    
+    grid-template-rows: 300px;;
+        background-image: url(https://stuki-druki.com/film/images/kadr-titanik1997-07.jpg);
+        background-size:108%;
+        border-radius: 10px 10px 10px 10px;
+        margin:10px 10px 10px 10px; 
+        cursor:cell;    
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,500&display=swap');
+.item_Head1 {
+    display:grid;
+    grid-row: 3/4;
+        grid-column: 5/7;
+        background-image: url(https://i.pinimg.com/originals/02/9a/5b/029a5b714e56d8fe25edac3b516dd95f.jpg);
+        background-size:100%;
+        border-radius: 10px 10px 10px 10px;
+        margin:10px 10px 10px 10px;
+        cursor:cell; 
+}
+.item_Head2 {
+    display:grid;
+    grid-row: 4/5;
+    grid-column: 1/4;
+    color: white; 
+    background: brown;
+    padding: 10px 10px 10px 10px; 
+    margin: 10px 10px 10px 10px;
+   
+    text-align: center;
+    
+    border-radius: 6px;
+}
+.item_Head3 {
+    display:grid;
+    grid-row: 4/5;
+    grid-column: 4/7;
+    color: white; 
+    background: brown;
+    padding: 10px 10px 10px 10px; 
+    margin: 10px 10px 10px 10px;
+    
+    text-align: center;
+    
+    border-radius: 6px;
+}
+.item_Head4 {
+    display:grid;
+    grid-row: 5/6;
+    grid-column: 1/4;
+    padding: 10px 10px 10px 10px; 
+    margin: 10px 10px 10px 10px;
+    
+    text-align: center;
+    border-radius: 6px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+.item_Text1{
+    
+    display:grid;
+    grid-row: 2/3;
+    grid-column: 1/3;
+      
+    font-size: 18px;
+    border-radius: 10px;
+}
+.item_button{
+    border-radius: 10px;
+    justify-self: start;
+    align-self: center;
+       }
+       .Total {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+       }
+       .item_Text2{
+        grid-row: 2/3;
+    grid-column: 3/5;
+        display:grid;
+                
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    .item_Text3{
+        grid-row: 2/3;
+    grid-column: 5/7;
+        display:grid;
+        
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    
+    .item_3_1{
+        display: grid;
+        float: left;
+        grid-template-rows: 300px;;
+        grid-template-columns: min-content 300px;
+            background-image: url(https://www.yourprops.com/movieprops/original/yp_528a9542041ee4.14431900/Titanic-Saucer-champagne-2.jpg);
+            background-size:100%;
+        border-radius: 10px 10px 10px 10px;
+        cursor:cell; 
+       }
+    .card-info{
+        float: right;
+       }
+    .card-info_1{
+        float: right;background: brown;
+    }
+    .item_Text4{
+        grid-row: 5/6;
+    grid-column: 4/7;
+        display:grid;
+        
+        font-size: 18px;
+        border-radius: 10px;
+    }
+    .item_3_2{
+        display: grid;
+        float: left;
+        grid-template-rows: 300px;;
+        grid-template-columns: min-content 300px;
+            background-image: url(https://kartinkin.net/uploads/posts/2021-07/thumbs/1625743827_3-kartinkin-com-p-titanik-oboi-krasivie-3.jpg);
+            background-size:100%;
+            background-position: 40%;
+        border-radius: 10px 10px 10px 10px;
+        cursor:cell; 
+       }
+      .line{
+        float: right;
+        color: black;
+      }
+      .item_button_L{
+        display: grid;
+        float: left;
+        border-radius: 10px;
+        justify-self: start;
+        align-self: center;
+           }
+           .shape-color:hover {
+              color: green;
+    
+           }
+           .item_2:hover {
+            box-shadow: 8px 8px 16px rgb(100, 211, 211);
+           }
+        
+        .item_3:hover {
+         box-shadow: 8px 8px 16px  rgb(100, 211, 211);
+           }
+           .HF:hover{
+           color: green;
+           }
+          
+          
